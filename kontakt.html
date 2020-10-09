@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="at-de">
+    <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+      <title>Kontakt</title>
+      <meta name="description" content="Glock - die Pistole von Welt">
+    </head>
+    <body>
+        <header>
+            <h1>Treten Sie mit uns in Kontakt!</h1>
+        </header>
+        <main>  
+            <form action="ausgabe.html" method="get">
+                <p>
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name">
+                </p>
+                <p>
+                    <label for="Mailadresse">E-Mail</label>
+                    <input type="email" name="Mailadresse" id="Mailadresse">
+                </p>
+                <b>
+                    <label for="Telefonnummer">Telefonnummer</label>
+                    <input type="telefonnummer" name="Telefonnummer" id="Telefonnummer">
+                </b>
+                <p>
+                    <label for="range">Wie hat Ihnen unsere Website gefallen?</label> 
+                    <input type="range" name="Hat es gefallen?" id="Hat es gefallen?">
+                </p>
+                <p>
+                    <label for="Kommentar"></label>
+                    <textarea rows="5" cols="20" name="Kommentar" id="Kommentar" 
+                    placeholder="Posten Sie hier Ihren Kommentar und lassen Sie uns wissen, ob Sie eine Kontaktaufnahme durch einen Berater wünschen."></textarea>
+                </p>
+                <p>
+                    <label for="Besucherinfo">Ich interessiere mich besonders für:</label>
+                    <select name="Besucherinfo" id="Besucherinfo">
+                        <option value="1">Faustfeuerwaffen</option>
+                        <option value="2">Langwaffen</option>
+                        <option value="3">Baby Glock</option>
+                        <option value="4">Accessoires</option>
+                        <option value="5">Etwas anderes</option>
+                    </select>
+                <p>
+                    <button type="submit">Absenden</button>
+                </p>
+                <p>
+                    <button type="reset">Reset</button>
+                </p>
+                 </form>
+        </main>
+    </body>
+</html>
